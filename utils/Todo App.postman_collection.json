@@ -1,0 +1,314 @@
+{
+	"id": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+	"name": "Todo App",
+	"description": "",
+	"order": [
+		"e308e6ea-39b7-ff0f-3492-d0ed3ad39443",
+		"8e3435d3-2634-a2c8-0ee4-a93ce4136ffc",
+		"9a780939-378e-8d28-f878-f74c1419013a",
+		"0691350e-8649-e98b-7077-b94473eefb16",
+		"f90d23f7-5bef-2992-b969-7d51cd93b28d",
+		"f57e59d0-d0cc-74aa-70d0-74f9960c6ff4",
+		"46c5b7e0-2ec9-5d92-ecd4-ecd2c841f499",
+		"af071cc5-c69e-4d50-b879-50987a43a83a",
+		"98b4fa15-da9f-68eb-72c8-7a21ecfef2cd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1507301857507,
+	"owner": "561671",
+	"public": false,
+	"requests": [
+		{
+			"id": "0691350e-8649-e98b-7077-b94473eefb16",
+			"headers": "Content-Type: application/json\nx-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/todos/{{todoId}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508360204436,
+			"name": "DELETE /todos/:id",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "46c5b7e0-2ec9-5d92-ecd4-ecd2c841f499",
+			"headers": "x-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508360012289,
+			"name": "GET /users/me",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": []
+		},
+		{
+			"id": "8e3435d3-2634-a2c8-0ee4-a93ce4136ffc",
+			"headers": "Content-Type: application/json\nx-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/todos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508359903239,
+			"name": "GET /todos",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\": \"this is from postman 3!\"\n}"
+		},
+		{
+			"id": "98b4fa15-da9f-68eb-72c8-7a21ecfef2cd",
+			"headers": "x-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users/me/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508360023130,
+			"name": "DELETE /users/me/token",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": []
+		},
+		{
+			"id": "9a780939-378e-8d28-f878-f74c1419013a",
+			"headers": "x-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/todos/{{todoId}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508360156363,
+			"name": "GET /todos/:id",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": []
+		},
+		{
+			"id": "af071cc5-c69e-4d50-b879-50987a43a83a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "var token = postman.getResponseHeader('x-auth');\npostman.setEnvironmentVariable('x-auth', token);",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508359862382,
+			"name": "POST /users/login",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"andrew@example.com\",\n\t\"password\": \"abc123!\"\n}"
+		},
+		{
+			"id": "e308e6ea-39b7-ff0f-3492-d0ed3ad39443",
+			"headers": "Content-Type: application/json\nx-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/todos",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "var body = JSON.parse(responseBody);\npostman.setEnvironmentVariable('todoId', body._id);",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508360158503,
+			"name": "POST /todos",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": [],
+			"rawModeData": "{\n\t\"text\": \"this is from postman 4!\"\n}"
+		},
+		{
+			"id": "f57e59d0-d0cc-74aa-70d0-74f9960c6ff4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "var token = postman.getResponseHeader('x-auth');\npostman.setEnvironmentVariable('x-auth', token);",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508359836216,
+			"name": "POST /users",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"andrew5@example.com\",\n\t\"password\": \"abc123!\"\n}"
+		},
+		{
+			"id": "f90d23f7-5bef-2992-b969-7d51cd93b28d",
+			"headers": "Content-Type: application/json\nx-auth: {{x-auth}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth",
+					"value": "{{x-auth}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}/todos/{{todoId}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1508360171049,
+			"name": "PATCH /todos/:id",
+			"description": "",
+			"collectionId": "7200237c-a5b3-8d68-88ec-7033c0d17a47",
+			"responses": [],
+			"rawModeData": "{\n\t\"completed\": true,\n\t\"text\": \"Update from postman\"\n}"
+		}
+	]
+}
